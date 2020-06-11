@@ -3,8 +3,8 @@ Title: Calendar Periods
 Version: 0.1.0
 Date: 2020-06-11
 Authors@R: c(
-    person(given = "Steve", family = "Martin", role = c("aut", "cre"), email = "stevemartin041@gmail.com"),
-    person(family = "Her Majesty the Queen in Right of Canada, as represented by the Minister of Statistics Canada", role = c("cph"))
+    person("Steve", "Martin", role = c("aut", "cre"), email = "steve.martin5@canada.ca"),
+    person("Her Majesty the Queen in Right of Canada, as represented by the Minister of Statistics Canada", role = c("cph"))
     )
 Description: A small package for working with calendar periods (e.g., year-months, year-quarters) using base R dates. 
 Depends: R (>= 4.0)

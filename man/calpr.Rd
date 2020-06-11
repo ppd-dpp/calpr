@@ -14,9 +14,9 @@ This package has essentially two functions for working with base R dates: \code{
 }
 
 \seealso{
-\url{https://github.com/marberts/gpindex}
+\url{https://github.com/ppd-dpp/calpr}
 }
 
 \author{
-\strong{Maintainer}: Steve Martin \email{stevemartin041@gmail.com}
+\strong{Maintainer}: Steve Martin \email{steve.martin5@canada.ca}
 }
