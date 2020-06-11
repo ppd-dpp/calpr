@@ -51,7 +51,7 @@ x[complete_quarters(x, c(rep('a', 10), rep('b', 6)))]
  library(zoo)
  x <- unique(as.yearmon(x))
  f <- factor(as.yearqtr(x))
- x[as.character(as.yearqtr(x)) %in% levels(f)[tabulate(f) == 3]]
+ x[as.character(as.yearqtr(x)) \%in\% levels(f)[tabulate(f) == 3]]
 }
 
 # Which elements in a monthly series form complete years?
