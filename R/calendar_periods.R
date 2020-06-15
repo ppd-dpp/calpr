@@ -8,8 +8,8 @@ calendar_period <- function(period = c('month', 'quarter', 'year'), start.mon = 
     # frac and shift should be length 1 numbers
     stopifnot(
       "x must be an atomic vector" = is.atomic(x),
-      "shift must be a length 1 number" = length(shift) == 1L && is.numeric(shift) && is.finite(shift),
-      "frac must be a length 1 number" = length(frac) == 1L && is.numeric(frac) && is.finite(frac)
+      "shift must be a length 1 number" = length(shift) == 1L && is.vector(shift, "numeric") && is.finite(shift),
+      "frac must be a length 1 number" = length(frac) == 1L && is.vector(frac, "numeric") && is.finite(frac)
     )
     # x should be a date
     x <- as.Date(x)
